@@ -1,0 +1,14 @@
+{
+  "event": "channel_viewed",
+
+  "data": {
+    "channel_id": "7y9tpg6p3jn47xdcmz5xwh4zae"
+  },
+
+  "broadcast": {
+    "channel_id": "",
+    "omit_users": null,
+    "team_id": "t4m75dtxifyt5ck845rnjhshsy",
+    "user_id": "org4iuq7tiydxr86zy31a5okya"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "event": "hello",
+
+  "data": {
+    "server_version": "3.5.0.3.5.3.4008c44980dd8ded0d9a08c9f3fc5f36"
+  },
+
+  "broadcast": {
+    "channel_id": "",
+    "omit_users": null,
+    "team_id": "",
+    "user_id": "org4iuq7tiydxr86zy31a5okya"
+  }
+}

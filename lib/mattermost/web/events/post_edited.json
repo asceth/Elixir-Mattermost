@@ -1,0 +1,14 @@
+{
+  "event": "post_edited",
+
+  "data": {
+    "post": "{\"id\":\"4jthnmyfw38rbpru3gn1kcffoa\",\"create_at\":1489267814989,\"update_at\":1489267819623,\"delete_at\":0,\"user_id\":\"org4iuq7tiydxr86zy31a5okya\",\"channel_id\":\"7y9tpg6p3jn47xdcmz5xwh4zae\",\"root_id\":\"\",\"parent_id\":\"\",\"original_id\":\"\",\"message\":\"foo and bar\",\"type\":\"\",\"props\":{},\"hashtags\":\"\",\"pending_post_id\":\"\"}"
+  },
+
+  "broadcast": {
+    "channel_id": "7y9tpg6p3jn47xdcmz5xwh4zae",
+    "omit_users": null,
+    "team_id": "",
+    "user_id": ""
+  }
+}

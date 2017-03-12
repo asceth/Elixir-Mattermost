@@ -1,0 +1,15 @@
+{
+  "event": "status_change",
+
+  "data": {
+    "status": "online",
+    "user_id": "org4iuq7tiydxr86zy31a5okya"
+  },
+
+  "broadcast": {
+    "channel_id": "",
+    "omit_users": null,
+    "team_id": "",
+    "user_id": "org4iuq7tiydxr86zy31a5okya"
+  }
+}
