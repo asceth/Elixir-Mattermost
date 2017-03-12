@@ -14,9 +14,9 @@ defmodule Mattermost do
   defmodule Bot do
     use Mattermost
 
-    def handle_event(message = %{type: "message"}, slack, state) do
+    def handle_event(message = %{type: "message"}, mattermost, state) do
       if message.text == "Hi" do
-        send_message("Hello to you too!", message.channel, slack)
+        send_message("Hello to you too!", message.channel, mattermost)
       end
 
       {:ok, state}
@@ -47,10 +47,10 @@ defmodule Mattermost do
   * `handle_close(reason, mattermost, state)` - called when websocket is closed before process is terminated.
   * `handle_info(message, mattermost, state)` - called when any other message is received in the process mailbox.
 
-  ## Slack argument
+  ## Mattermost argument
 
-  The Slack argument that's passed to each callback is what contains all of the
-  state related to Slack including a list of channels, users, groups, bots, and
+  The Mattermost argument that's passed to each callback is what contains all of the
+  state related to Mattermost including a list of channels, users, groups, bots, and
   even the socket.
 
   Here's a list of what's stored:
